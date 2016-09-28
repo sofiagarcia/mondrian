@@ -9,7 +9,7 @@ function mondrian(x, y, x2, y2, N) {
 		var col = ['#ffcb21', '#ffffff', '#537bbe', '#e44240']; //yellow, white, blue, red
 
 		fill(col[floor(random(col.length))]); //randomly choose color
-		strokeWeight(sw);
+		strokeWeight(borderWeight);
 		rect(x, y, x2-x-borderWeight, y2-y-borderWeight);
 
 	} else {
