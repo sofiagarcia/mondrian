@@ -28,7 +28,7 @@ function mondrian(x, y, x2, y2, N) {
 
 function setup() {
 	createCanvas(500, 500);
-	mondrian(1, 1, 400, 400, N);
+	mondrian(1, 1, 500, 500, N);
 }
 
 function draw() {
@@ -37,5 +37,5 @@ function draw() {
 }
 
 function keyPressed() {
-mondrian(1, 1, 400, 400, N);
+mondrian(1, 1, 500, 500, N);
 }
